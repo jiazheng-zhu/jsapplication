@@ -1,0 +1,329 @@
+﻿/*body-font*/
+body
+{
+    font-family: Microsoft YaHei;
+    background:#f6f6f6;
+}
+
+.head-top
+{
+    background: dimgray;
+    padding: 0.8em 0;
+}
+
+.navbar-brand
+{
+    padding: 0 0;
+    height: auto;
+}
+
+/*logo-size*/
+.navbar-brand > img
+{
+    height: auto;
+    margin-right: 5px; 
+}
+.navbar{ border: 0px solid transparent;}
+
+/*navi*/
+.navbar-default
+{
+    padding: 1.5em 0;
+    background: none; 
+    box-shadow:none;
+    
+}
+
+.navbar-default .navbar-nav > li a
+{ 
+    padding: 0em 3em;
+    text-decoration: none; 
+    font-size: 1.2em;
+    color: #919191;
+    line-height:130px;
+}
+
+.navbar-right{ margin-top:16px;}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus
+{
+    background: #08a1e5;
+    color: white;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.navbar-default .navbar-collapse{ margin-left:130px;}
+
+.navbar-right > a
+{
+    color: #D96B66;
+} 
+
+#about{ margin-bottom:100px; }
+#about .icon{ float:left; width:20%;}
+#about .icon span 
+{
+    font-size:70px;
+    margin-left: 28px;
+    margin-top: 33px;
+}
+#about .info{ float:left; width:70%; margin-left:5%; }
+#about h1{ margin-bottom:50px;}
+#about .info h3{ text-align:center; margin-bottom:20px; }
+#about .col-md-6{ margin-bottom:30px; }
+#blog{ margin-bottom:100px; } 
+#blog h1{ margin-bottom:20px; margin-top:0px; }
+#blog h1 + p{ text-align:left; width:70%; margin: 0 auto; margin-bottom:40px;   }
+#blog .col-md-4{ text-align:center; }
+#blog .col-md-4 img{ width:90%; cursor:pointer; }
+
+#blog .col-md-4 img:hover{ box-shadow: 10px 10px 5px #888888;}
+
+
+#blog .col-md-4 .more{ margin-top:30px; }
+#blog .col-md-4 .more a{ font-size:24px; color:#000; } 
+#pricing{ margin-bottom:160px; } 
+#pricing h1{ margin-bottom:40px; margin-top:0px; }
+#pricing h4{ margin-top:30px; text-align:center; }
+#pricing h3{ text-align:center; }
+#pricing p{ width:60%; margin:0 auto; margin-top:30px; }
+.btn-block 
+{
+    background:#000; color:#fff; 
+}
+.home{ line-height:3; color:#000;}
+#signin{ margin-bottom:120px; } 
+.create { background:#000; text-align:center; margin-bottom:50px; }
+.create H2 { line-height:4; color:#FFF;}
+.forgot{ line-height:3; color:#000;}
+.createa{ line-height:3; color:#000;}
+
+
+
+
+.case_container h1{ color: #b89d63;
+    text-align: center;
+    line-height:3;
+    border-bottom: 1px solid #b89d63;
+    font-size:30px;
+    
+    
+    }
+    
+    .case_box {
+    margin-top: 20px;
+}  
+.case_img {
+    border: solid 1px #b89d63;
+    text-align:center;
+}  
+.case_img .case_text {
+    padding: 10px 0;
+    text-align: center;
+    display: block;
+    color: #b89d63;
+    font-size: 1.2em;
+    line-height:2;
+}
+
+.news h1{ color: #b89d63;
+    text-align: center;
+    line-height:3;
+    border-bottom: 1px solid #b89d63;
+    font-size:30px;
+    
+    
+    }
+    .tab-content { text-align:center; margin-top:20px;}
+.tab-content p a{ color: #aaa; font-size:22px; font-style:italic;} 
+.tab-content p{ border-bottom:2px solid #aaa; line-height:2; }
+.nav-tabs li a{ color:#000;}
+.foot p{ padding: 10px; color: #888; font-size:16px;}   
+.foot img{ margin-bottom:20px; }
+.foot dt {  padding: 10px; margin-bottom:30px; }
+.foot dd {  padding: 10px; }
+.foot dd a{ color: #888; font-size:16px;}
+
+@media (max-width: 970px)
+{
+    .navbar-brand > img {
+    height: 66px;
+    margin-right: 5px;
+    margin-left:30px;
+}
+    .navbar-default .navbar-nav > li a
+    {
+        font-size: 1.1em;
+        padding: 0em 1em;
+        line-height:inherit;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-default .navbar-collapse {
+    margin-left: -15px;
+}
+}
+
+.navbar-wrapper
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container
+{
+    width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+------------------------------------------ */
+
+/* Carousel base class */
+.carousel
+{
+    height: 500px;
+    margin-bottom: 60px;
+}
+.carousel-caption
+{
+    z-index: 10; /* Since positioning the image, we need to help out the caption */
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item
+{
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+/* MARKETING CONTENT
+------------------------------------------ */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2
+{
+    font-weight: 400;
+}
+.marketing .col-lg-4 p
+{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+/* Featurettes
+----------------- */
+
+.featurette-divider
+{
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading
+{
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+------------------------------------------ */
+
+@media (min-width: 768px)
+{
+    /* Navbar positioning foo */
+    .navbar-wrapper
+    {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container
+    {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar
+    {
+        padding-right: 0;
+        padding-left: 0;
+        border-radius: 4px; /* The navbar becomes detached from the top, so we round the corners */
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p
+    {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading
+    {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .featurette-heading
+    {
+        margin-top: 120px;
+    }
+} 
+
+.btn-primary {
+    color: #fff;
+    background-color: #b89d63;
+    border-color: #b89d63;
+}
+@media (min-width: 768px){
+
+.modal-dialog {
+    width: 100%;
+    margin: 30px auto;
+}
+}
+.index {     margin-bottom: 100px;}
+.index .home{ position:relative; }
+.index .home .mask{ position:absolute; top:0px; left:0px; width:100%; height:100%; background:rgba(0,0,0,0.7);} 
+.index .home .text{ color:#fff; position:absolute; left:0px; top:0px; width:100%; box-sizing:border-box; padding:30px; }
+.index .home .text h2{ font-size:3em;}
+.index .home .text p{ font-size:1.5em; line-height:1.5; margin-top:30px;}
+
+@media (max-width: 970px)
+{
+    .index .home img{ display:none;}
+.index .home .mask{  display:none; } 
+.index .home .text{ color:#000; position:relative; left:0px; top:0px; width:100%; box-sizing:border-box; padding:20px; }
+    
+    }
